@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascend the Abyss - Tim Kung Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/projects-style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.svg">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/index.html" class="logo">Tim Kung</a>
+                <button class="mobile-menu-btn">☰</button>
+                <nav>
+                    <ul id="nav-menu">
+                        <li><a href="/index.html#home">Home</a></li>
+                        <li><a href="/index.html#about">About</a></li>
+                        <li><a href="/index.html#projects">Projects</a></li>
+                        <li><a href="/index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Project Hero Section -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-hero-content">
+                <div class="project-hero-text">
+                    <h1>Ascend the Abyss - Processing (Java) Game</h1>
+                    <div class="project-tags">
+                        <span class="project-tag">Java</span>
+                        <span class="project-tag">Processing</span>
+                        <span class="project-tag">Game Design & Development</span>
+                        <span class="project-tag">UML</span>
+                    </div>
+                    <p>A rogue-like, twin-stick shooter game created in Processing Java.</p>
+                    
+                    <div class="project-meta">
+                        <div class="project-meta-item">
+                            <span class="project-meta-label">Client:</span>
+                            <span>University Project</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <span class="project-meta-label">Duration:</span>
+                            <span>4 Weeks</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <span class="project-meta-label">Role:</span>
+                            <span>Game Designer & Developer</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <span class="project-meta-label">Completed:</span>
+                            <span>August 2022</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/timothytzkung/Ascend-The-Abyss" target="_blank" class="btn btn-outline">Source Code</a>
+                    </div>
+                </div>
+                <img src="/assets/img/ascend-the-abyss/ascend-the-abyss-1.png" alt="ascend-the-abyss picture" class="project-hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Project Overview</h2>
+            <div class="project-description">
+                <p>This project was inspired by my interest in rogue-like mechanics and games like The Binding of Isaac and Hades. I wanted to explore dungeon creation within Processing Java*, focusing on procedural generation, varied enemies, and item-based progression. </p>                
+                <p>Players navigate procedurally generated rooms, battling enemies such as summoners and chargers while collecting items that enhance abilities like vision, speed, and damage.</p>
+            </div>
+            
+            <h2 class="section-title">Key Features</h2>
+            <div class="project-features">
+                <ul class="project-features-list">
+                    <li>Each playthrough offers unique room layouts, ensuring replayability and dynamic exploration.</li>
+                    <li>Enemies like summoners and chargers introduce varied combat challenges that test player strategy.</li>
+                    <li>Players can collect items that enhance vision, movement speed, and damage, encouraging adaptive gameplay.</li>
+                    <li>Handcrafted sprites and animations developed through iterative self-taught pixel art practice.</li>
+                    <li>A focused scope that prioritizes polished dungeon generation, combat, and item systems over excessive feature bloat.</li>
+                    <li>All aspects — design, programming, art, and testing — were handled individually, showcasing full-stack game development skills.</li>
+                </ul>
+            </div>
+            
+            <h2 class="section-title">Project Gallery</h2>
+            <div class="project-gallery">
+                <div class="gallery-item">
+                    <img src="/assets/img/ascend-the-abyss/ascend-the-abyss-1.png" alt="Homepage">
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/img/ascend-the-abyss/ascend-the-abyss-2.png" alt="Product Listing">
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/img/ascend-the-abyss/ascend-the-abyss-3.gif" alt="Product Detail">
+                </div>
+
+            </div>
+            
+            <h2 class="section-title">Challenges & Solutions</h2>
+            <div class="challenges-solutions">
+                <div>
+                    <h3>Challenges</h3>
+                    <div class="project-description">
+                        <p>I initially envisioned a large number of features, including complex dungeon layouts, numerous enemy types, and elaborate item effects. This made the project difficult to manage within my available time and resources.</p>
+                        <p>Moreover, as someone with limited experience in pixel art, creating visually appealing sprites and animations proved difficult and time-consuming.</p>
+                        <p>Lastly, Some item combinations made the game too easy, reducing the challenge and engagement for players.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Solutions</h3>
+                    <div class="project-description">
+                        <p>I narrowed the focus to core features — streamlined dungeon generation, a small but diverse enemy roster, and a few impactful items — which made the game more manageable and polished.</p>
+                        <p>I taught myself pixel art iteratively, gradually improving asset quality through repeated practice and feedback, which resulted in a consistent and functional visual style for the game.</p>
+                        <p>I conducted multiple rounds of playtesting with friends and adjusted item effects — toning down overpowered upgrades and ensuring each item provided a meaningful, balanced boost.
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Technical Implementation</h2>
+            <div class="project-description">
+                <p>The project was built completely in Processing/Java. I used Object-Oriented Programming to structure my project, with game objects and elements managed by a custom GameManager.</p>                
+                <p>All pixel-art asset creation, including sprite work and animation, was handled using Aseprite. Animations were handled using my own AnimationHandler to cycle through sprites based on the object's state.</p>
+            </div>
+            
+            <h3>Example Animation Component:</h3>
+            <div class="code-block">
+<pre>
+class Animation {
+    PImage[] images;
+    PVector size;
+    int imageCount;
+    int frame;
+    int rate;
+    
+    Animation(String imagePrefix, int count, int rate, PVector size) {
+        imageCount = count;
+        images = new PImage[imageCount];
+        this.size = size;
+        
+        this.rate = rate;
+        frame = 0;
+    
+        for (int i = 0; i < imageCount; i++) {
+        // Use nf() to number format 'i' into three digits
+        String filename = imagePrefix + nf(i, 3) + ".png";
+        images[i] = loadImage(filename);
+        }
+    }
+    
+    void display(float xpos, float ypos) {
+        // Displays animated sprite
+        if (frameCount % rate == 0) {
+        frame = (frame+1) % imageCount;
+        }
+        imageMode(CENTER);
+        image(images[frame], xpos, ypos, size.x, size.y);
+    }
+    
+    int getWidth() {
+        // Returns width of sprite
+        return images[0].width;
+    }
+}
+</pre>
+            </div>
+            
+            <h2 class="section-title">Technologies Used</h2>
+            <div class="technologies">
+                <div class="tech-list">
+                    <div class="tech-item">
+                        <div class="tech-icon">J</div>
+                        <span>Java</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">P</div>
+                        <span>Processing</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">A</div>
+                        <span>Aseprite</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">G</div>
+                        <span>Git/Github</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Lessons Learned</h2>
+            <div class="project-description">
+                <p>Managing scope creep during Ascend the Abyss taught me the importance of setting clear priorities and focusing on the essentials. By simplifying dungeon layouts, refining enemy designs, and narrowing item mechanics, I delivered a functional game while meeting deadlines.</p>                
+                <p>In hindsight, I could have planned features more effectively by establishing milestones or sprints, which would have reduced last-minute adjustments. In future projects, I’ll focus on creating a more structured development timeline and allocating time for visual polish to elevate the overall quality of the experience.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Related Projects -->
+    <section class="related-projects">
+        <div class="container">
+            <h2 class="section-title">Related Projects</h2>
+            <div class="related-projects-container">
+                <!-- Related Project 1 -->
+                <div class="project-card">
+                    <img src="/assets/img/sfu-complaint-app/sfu-complaint-app-1.png" alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">SFU Complaint App</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">HTML/CSS</span>
+                        </div>
+                        <p class="project-description">A prototype mockup of a platform where students can post and share feedback and suggestions for SFU.</p>
+                        <div class="project-links">
+                            <a href="https://pages.github.sfu.ca/tka73/iat235-p4/" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Project 2 -->
+                <div class="project-card">
+                    <img src="/assets/img/noise-manager-app/noise-manager-app-1.png" alt="Project 3" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Noise Manager App</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Javascript</span>
+                            <span class="project-tag">P5.js</span>
+                        </div>
+                        <p class="project-description">A noise manager application that subtracts available gaming time for students if they're too noisy in the classroom!</p>
+                        <div class="project-links">
+                            <a href="https://editor.p5js.org/timothytzkung/full/xYkbOu7bi" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">Coming Soon!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Tim Kung</div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/timothy-kung/" target="_blank" class="social-link">Li</a>
+                    <a href="https://github.com/timothytzkung" target="_blank" class="social-link">Gh</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tim Kung. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Portfolio Button -->
+    <a href="/index.html" class="back-to-portfolio">↩</a>
+
+    <script src="/assets/scripts/toggle.js"></script>
+</body>
+</html>

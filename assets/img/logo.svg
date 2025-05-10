@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.33604,0,0,1.33604,-9.17093,-4.82475)">
+        <circle cx="18.84" cy="15.587" r="11.976" style="fill:white;stroke:black;stroke-width:3.12px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-7.48736,1.53117)">
+        <g transform="matrix(25,0,0,25,21.977,26.6385)">
+        </g>
+        <text x="7.627px" y="26.639px" style="font-family:'Avenir-HeavyOblique', 'Avenir', sans-serif;font-weight:900;font-style:italic;font-size:25px;">T</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-20.643,10.0338)">
+        <g transform="matrix(25,0,0,25,49.125,13.7253)">
+        </g>
+        <text x="32px" y="13.725px" style="font-family:'Avenir-HeavyOblique', 'Avenir', sans-serif;font-weight:900;font-style:italic;font-size:25px;">K</text>
+    </g>
+</svg>
