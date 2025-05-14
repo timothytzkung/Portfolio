@@ -234,12 +234,17 @@ nav ul li a:hover::after {
     margin-bottom: 3rem;
 }
 
+
+/* Gallery Item Caption Styles */
 .gallery-item {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     cursor: pointer;
     transition: transform 0.3s ease;
+    background-color: #fff; /* Adding background color for the caption area */
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery-item:hover {
@@ -251,6 +256,15 @@ nav ul li a:hover::after {
     height: auto;
     display: block;
 }
+
+.gallery-item p {
+    padding: 12px 15px;
+    margin: 0;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
 
 /* Project Challenges & Solutions */
 .challenges-solutions {

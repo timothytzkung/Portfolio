@@ -50,8 +50,12 @@
                             <span>4 Weeks</span>
                         </div>
                         <div class="project-meta-item">
+                            <span class="project-meta-label">Members:</span>
+                            <span>Tim Kung, KC Fedellaga, Shamikh Rahim</span>
+                        </div>
+                        <div class="project-meta-item">
                             <span class="project-meta-label">Role:</span>
-                            <span>Front-End Developer & UX Designer [Team of 3]</span>
+                            <span>Front-End Developer & UX Designer</span>
                         </div>
                         <div class="project-meta-item">
                             <span class="project-meta-label">Completed:</span>
@@ -90,21 +94,27 @@
             
             <h2 class="section-title">Project Gallery</h2>
             <div class="project-gallery">
-                <div class="gallery-item">
-                    <img src="../assets/img/sfu-complaint-app/sfu-complaint-app-1.png" alt="Homepage on Figma">
-                </div>
+
                 <div class="gallery-item">
                     <img src="../assets/img/sfu-complaint-app/sfu-complaint-app-2.png" alt="User Story Mapping">
+                    <p>User story mapping session where we identified key journeys and prioritized features for development.</p>
                 </div>
                 <div class="gallery-item">
                     <img src="../assets/img/sfu-complaint-app/sfu-complaint-app-3.png" alt="User Journey">
+                    <p>Detailed user journey mapping showing the complaint submission process from start to resolution.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/img/sfu-complaint-app/sfu-complaint-app-5.png" alt="Low-fidelity Sketch">
+                    <p>One page of preliminary wireframe sketches done before Figma Mockups.</p>
                 </div>
                 <div class="gallery-item">
                     <img src="../assets/img/sfu-complaint-app/sfu-complaint-app-4.png" alt="Figma Mockup">
+                    <p>Interactive Figma prototype showcasing the discussion thread and response functionality.</p>
                 </div>
-
-
-
+                <div class="gallery-item">
+                    <img src="../assets/img/sfu-complaint-app/sfu-complaint-app-1.png" alt="Homepage on Figma">
+                    <p>Final homepage design mockup created in Figma, showing the clean interface with categorized complaints.</p>
+                </div>
             </div>
             
             <h2 class="section-title">Challenges & Solutions</h2>
@@ -112,23 +122,23 @@
                 <div>
                     <h3>Challenges</h3>
                     <div class="project-description">
-                        <p>One of the major challenges we encountered in the early stages of design was selecting a color scheme that aligned with SFU's visual identity while maintaining a clean and user-friendly interface. Striking the right balance was tricky — some initial drafts featured colors that either felt too bold and distracting or didn't harmonize well with each other. Additionally, inconsistencies emerged in the visual elements, such as a mix of rounded and sharp corners, which made the interface feel disjointed and less cohesive.</p>
-                        <p>Another significant challenge stemmed from the text-heavy nature of the application itself. Since the platform focuses on discussion threads, complaints, and feedback, we needed to design a layout that presented large amounts of information without overwhelming users. Ensuring that the interface remained accessible and easy to navigate, while still surfacing relevant content, was a key design consideration.</p>
+                        <p>One of the early challenges I identified was the lack of visual consistency across our initial UI drafts. Some components used sharp corners while others were fully rounded, which made the interface feel disconnected. Additionally, while trying to incorporate SFU's brand colors, we initially leaned too heavily into bold tones that ended up clashing and distracting from the content. I realized that without a more unified design system, it would be hard for our interface to feel polished or intentional.</p>
+                        <p>Another challenge arose from the platform's inherently text-heavy nature. Because the app centers around user-submitted complaints and discussions, we had to find a way to present dense information without overwhelming users. I noticed that without clear hierarchy and spacing, it became difficult to scan or prioritize content, especially on smaller screens. This issue directly impacted usability and readability.</p>
                     </div>
                 </div>
                 <div>
                     <h3>Solutions</h3>
                     <div class="project-description">
-                        <p>To address the visual inconsistencies, our team made a collective decision to adopt a more uniform aesthetic. We standardized elements such as corner shapes, button styles, and typography, which helped create a smoother and more cohesive user experience. We also fine-tuned the color palette to complement SFU's branding while keeping it subtle enough to avoid visual clutter.</p>
-                        <p>Ongoing peer feedback played a crucial role in refining both the functionality and layout of the app. Through testing and discussions, we gathered helpful suggestions — for example, swapping out the original “Popular” section for alternative filters like “Unanswered” or “New” to encourage more engagement with less visible posts. We also adjusted the placement of interface elements, such as relocating sorting dropdowns, to establish a clearer visual hierarchy and improve overall usability.</p>
+                        <p>To address the design inconsistency, I took the initiative to create a small internal style guide outlining standard corner radii, button styles, and spacing conventions. I also suggested toning down our color palette to better reflect SFU's visual identity without overpowering the user interface. By documenting these guidelines and walking the team through them, I helped set a more cohesive visual foundation moving forward.</p>
+                        <p>To tackle the content density problem, I designed several low-fidelity wireframes focused on information hierarchy. I proposed breaking content into clearly labeled sections with consistent spacing and modular components, which made the interface easier to scan and digest. When we received feedback suggesting alternative post filters like “Unanswered” or “New,” I mocked up how these changes would look and shared usability insights to support their implementation. I also recommended repositioning interface elements like the sorting dropdown to help clarify the user's navigation path and reinforce a clean visual hierarchy.</p>
                     </div>
                 </div>
             </div>
             
             <h2 class="section-title">Technical Implementation</h2>
             <div class="project-description">
-                <p>The frontend of the application was developed using vanilla HTML and CSS, allowing us to build the interface from the ground up without relying on external frameworks. For styling, our team created custom CSS modules tailored to each component, which helped us maintain organized and modular styles across the application. This approach made it easier to manage and update individual sections of the interface without impacting unrelated components.</p>
-                <p>Before development, we designed the overall layout and interface in Figma. Prototyping in Figma allowed us to visualize the user flow, experiment with design iterations, and ensure alignment on the visual direction before translating it into code. Once the designs were finalized, we implemented the layout using a combination of CSS Grid and Flexbox. These CSS techniques gave us the flexibility to create a responsive layout that adapts seamlessly across different screen sizes and devices, ensuring a smooth user experience whether accessed on desktop or mobile.</p>
+                <p>While the frontend was built using vanilla HTML and CSS, I took responsibility for organizing our styling approach. I introduced CSS modules for component-based styling and helped structure our codebase to support modularity and maintainability. I also worked on setting up the base layout using CSS Grid and Flexbox, ensuring it aligned with our Figma prototype and responded properly across different screen sizes.</p>
+                <p>To support the team, I translated the Figma designs into a set of reusable layout patterns and shared annotated examples to help my teammates implement consistent spacing, alignment, and responsiveness. Whenever styling conflicts or layout bugs came up, I stepped in to debug and refactor problematic sections of the CSS, helping maintain visual consistency and a clean user experience across the app.</p>
             </div>
             
             <h3>Example CSS Component:</h3>
