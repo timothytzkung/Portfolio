@@ -446,6 +446,8 @@ footer {
     
     .mobile-menu-btn {
         display: block;
+        padding-right: 15px;
+        order: 3;
     }
     
     .footer-content {
