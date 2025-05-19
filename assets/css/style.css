@@ -461,6 +461,12 @@ footer {
     .container {
         padding: 0 1.5rem;
     }
+
+    .mobile-menu-btn {
+        display: block;
+        padding-right: 15px;
+        order: 3;
+    }
     
     .hero h1 {
         font-size: 2rem;
